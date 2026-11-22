@@ -1,15 +1,28 @@
+
 /* Notice styles - add your own styling to these classes (you can add more classes too).
    Use them in Notice.jsx: className={styles.notice}
    Don't delete the classes marked "REQUIRED BY THE TESTS". */
 
 /* REQUIRED BY THE TESTS: the box */
 .notice {
+  padding: 13px 16px;
+  border-radius: 7px;
+  font-size: 14px;
+  margin: 12px 0;
+  border: 1px solid transparent;
+  line-height: 1.5;
 }
 
 /* REQUIRED BY THE TESTS: yellow background */
 .warning {
+  background-color: #fff8e5;
+  color: #856404;
+  border-color: #f1dfaa;
 }
 
 /* REQUIRED BY THE TESTS: blue background */
 .info {
+  background-color: #edf5fc;
+  color: #315d82;
+  border-color: #cbdfee;
 }

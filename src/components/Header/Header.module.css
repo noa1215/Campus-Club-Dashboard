@@ -4,8 +4,14 @@
 
 /* the <header> wrapper */
 .header {
+   display: flex;
+   justify-content: center;
 }
 
 /* the <h1> - big, centered, bold */
 .title {
+   font-size: 30px;
+   text-align: center;
+   align-items: center;
+   font-weight: bold;
 }
